@@ -10,7 +10,7 @@ int _strlen(char *s)
 unsigned int i;
 
 i = 0;
-while (s[i] != '\0') /*count character of string*/
+while (s[i] != '\0') /*Count character of string*/
 {
 i++;
 }
@@ -19,7 +19,7 @@ return (i);
 }
 
 /**
- * _strcpy - copy arrays 
+ * _strcpy - copy arrays
  * @src: array of elements
  * @dest: dest array
  * Return: dest
@@ -40,7 +40,7 @@ return (dest);
 }
 
 /**
- * _strdup - array for prints a string
+ * _strdup - array for points a string
  * @str: array of elements
  * Return: pointer
  */
